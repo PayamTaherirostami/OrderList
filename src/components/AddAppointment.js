@@ -36,7 +36,7 @@ const AddAppointment = ({ onSendAppointment, lastId }) => {
         toggleForm &&
         <div className="border-r-2 border-b-2 border-l-2 border-light-blue-500 rounded-b-md pl-4 pr-4 pb-4">
           <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start  sm:pt-5">
-            <label htmlFor="Dep" className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2">
+            <label htmlFor="Name" className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2">
               Item Name
           </label>
             <div className="mt-1 sm:mt-0 sm:col-span-2">
@@ -48,7 +48,7 @@ const AddAppointment = ({ onSendAppointment, lastId }) => {
           </div>
 
           <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start  sm:pt-5">
-            <label htmlFor="Name" className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2">
+            <label htmlFor="Dep" className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2">
               Department Name
           </label>
             <div className="mt-1 sm:mt-0 sm:col-span-2">
